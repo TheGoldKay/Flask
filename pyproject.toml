@@ -1,15 +1,9 @@
 [project]
-name = "flask"
+name = "flask-tuto"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
-
-[dependency-groups]
-dev = [
-    "flask",
+dependencies = [
+    "flask>=3.1.2",
 ]
-
-[tool.uv.sources]
-flask = { workspace = true }
